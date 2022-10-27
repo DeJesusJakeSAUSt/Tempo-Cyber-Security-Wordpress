@@ -3,11 +3,11 @@ This is just a temporary storage for lab 7 and 8 of homework assignment
 
 # Project 7 - WordPress Pen Testing
 
-Time spent: **X** hours spent in total
+Time spent: 7 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
-## Pen Testing Report
+## Pen Testing Report Updated
 
 ### 1. (Required) Youtube URL Embed
 
