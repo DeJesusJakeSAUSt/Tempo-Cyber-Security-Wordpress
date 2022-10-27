@@ -9,18 +9,40 @@ Time spent: 7 hours spent in total
 
 ## Pen Testing Report Updated
 
-### 1. (Required) Youtube URL Embed
+### 1. (Required) Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
+
+- [ ] Summary: 
+  - Vulnerability types: XSS
+  - Tested in version: 4.0-4.7.2
+  - Fixed in version: 4.2.13
+- [ ] GIF Walkthrough: wordpress1.gif, wordpress1.2.gif
+- [ ] Steps to recreate: 
+- [ ] Affected source code:
+  - [Link 1]http://wpdistillery.vm/xss-youtube/
+  
+### 2. (Required) Authenicated Code Execution 
+
+- [ ] Summary: 
+  - Vulnerability types: Authenticated Code Execution
+  - Tested in version: 3.7-5.0
+  - Fixed in version: 5.0.1
+- [ ] GIF Walkthrough: userAsnip.gif
+- [ ] Steps to recreate: 
+- [ ] Affected source code:
+  - [Link 1]http://wpdistillery.vm/wp-admin/post.php?post=14&action=edit
+
+### 3. (Required) Authenticated SQL injection
 
 - [ ] Summary: 
   - Vulnerability types: 
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
+  - Tested in version: 2.3.0-4.7.4
+  - Fixed in version: 4.7.5
+- [ ] GIF Walkthrough: sqli1.1.gif, sqli1.2.gif
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-  
-### 2. (Required) User Authenication
+  - [Link 1]http://wpdistillery.vm/wp-admin/post.php?post=9&action=edit
+
+### 4. (Optional) None
 
 - [ ] Summary: 
   - Vulnerability types:
@@ -31,29 +53,7 @@ Time spent: 7 hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-### 3. (Required) SQLI
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 4. (Optional) SQLI
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 5. (Optional) XSS Cross site scripting
+### 5. (Optional) None
 
 - [ ] Summary: 
   - Vulnerability types:
@@ -81,7 +81,7 @@ GIFs created with  ...
 
 ## Notes
 
-I mostly had a very rough time trying to make all of my 6 snips into .gif files because I didn't know how to initially make them work for submission on Units 7 & 8.
+I mostly had a very rough time trying to make all of my 6 snips into .gif files because I didn't know how to initially make them work for submission on Units 7 & 8. Really sorry about this late issue Codepath. Have a great rest of your day and week. 
 
 ## License
 
